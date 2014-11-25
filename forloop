@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for var in NewYork NewJersy Boston
+do
+  printf "%s\n" "$var"
+done
