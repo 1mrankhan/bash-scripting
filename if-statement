@@ -1,0 +1,10 @@
+printf "Enter no, no greater than 10 ? "
+read number
+
+if [ " $number " -gt 10 ]
+then
+	printf "number is too long"
+	exit 1
+else
+	printf "you've entered %d\n" "$number"
+fi
